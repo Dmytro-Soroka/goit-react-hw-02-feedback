@@ -1,0 +1,54 @@
+.optionsContainer {
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 100px;
+  padding: 10px;
+  margin: 5px;
+
+  font-weight: 700;
+
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+
+.good {
+  composes: btn;
+  color: #388e3c;
+  background-color: #a5d6a7;
+  border: 1px solid #388e3c;
+}
+
+.good:hover {
+  color: #a5d6a7;
+  background-color: #388e3c;
+}
+
+.neutral {
+  composes: btn;
+  color: #fbc02d;
+  background-color: #fff59d;
+  border: 1px solid #fbc02d;
+}
+
+.neutral:hover {
+  color: #fff59d;
+  background-color: #fbc02d;
+}
+
+.bad {
+  composes: btn;
+  color: #ef5350;
+  background-color: #ffcdd2;
+  border: 1px solid #ef5350;
+}
+
+.bad:hover {
+  color: #ffcdd2;
+  background-color: #ef5350;
+}

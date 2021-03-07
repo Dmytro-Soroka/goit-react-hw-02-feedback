@@ -1,0 +1,21 @@
+.statistics {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.good {
+  color: green;
+}
+
+.neutral {
+  color: yellow;
+}
+
+.bad {
+  color: red;
+}
+
+.divider {
+  height: 1px;
+  background-color: #b2ebf2;
+}
