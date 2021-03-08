@@ -8,7 +8,7 @@
 }
 
 .neutral {
-  color: yellow;
+  color: #fbc02d;
 }
 
 .bad {
@@ -17,5 +17,5 @@
 
 .divider {
   height: 1px;
-  background-color: #b2ebf2;
+  background-color: black;
 }

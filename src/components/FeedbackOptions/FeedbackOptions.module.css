@@ -19,36 +19,36 @@
 
 .good {
   composes: btn;
-  color: #388e3c;
+  color: black;
   background-color: #a5d6a7;
-  border: 1px solid #388e3c;
+  border: 1px solid green;
 }
 
 .good:hover {
-  color: #a5d6a7;
-  background-color: #388e3c;
+  color: white;
+  background-color: green;
 }
 
 .neutral {
   composes: btn;
-  color: #fbc02d;
+  color: black;
   background-color: #fff59d;
   border: 1px solid #fbc02d;
 }
 
 .neutral:hover {
-  color: #fff59d;
+  color: white;
   background-color: #fbc02d;
 }
 
 .bad {
   composes: btn;
-  color: #ef5350;
+  color: black;
   background-color: #ffcdd2;
-  border: 1px solid #ef5350;
+  border: 1px solid red;
 }
 
 .bad:hover {
-  color: #ffcdd2;
-  background-color: #ef5350;
+  color: white;
+  background-color: red;
 }
